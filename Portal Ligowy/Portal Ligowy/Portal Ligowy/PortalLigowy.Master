@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PortalLigowy.master.cs" Inherits="Portal_Ligowy.PortalLigowy" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Portal Ligowy</title>
+    <link rel="stylesheet" href="~/styles/reset.css" type="text/css" />
+    <link rel="stylesheet" href="~/styles/style.css" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+            <div id="infobar">
+                <div id="info">
+                    <img src="../images/time.gif" alt="Godzina: " style="float:left;"/><p class="info_elm">21:49</p>
+                    <img src="../images/calendar.gif" alt="Data: " style="float:left;"/><p class="info_elm">21.04.2015</p>
+                    <img src="../images/online.gif" alt="Online: " style="float:left;"/><p class="info_elm">4</p>
+                </div>
+                <div id="icons">
+                    <a href="#"><img src="../images/facebook.gif" alt="Facebook " class="icons_elm"/></a>
+                    <a href="#"><img src="../images/grass.gif" alt="Grass Site " class="icons_elm"/></a>
+                    <a href="#"><img src="../images/indoor.png" alt="Indoor Site " class="icons_elm"/></a>
+                </div><div class="clear"></div>                
+                
+            </div>
+
+            <div id="topbar">
+                <div id="tp_left"><a href="#"><img src="../images/home.gif" alt="Homesite"/></a></div>
+                <div id="tp_center">
+                    <p>Miejsce na dwupoziomowy rotator banerów reklamowych</p>
+                </div>
+                <div id="tp_right">
+                    b
+                </div>
+            </div><div class="clear"></div>
+
+            <div id="navbar">
+                <ul id="nav">            
+                    <li><a href="">STRONA GŁÓWNA</a></li>
+                    <li><a href="">LIGA</a></li>          
+                </ul>
+            </div>
+
+            <div id="main">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="push"></div>
+            
+        </div>      
+        <div id="footer">
+                <img src="../images/footer.gif" alt="© Portal ligowy" style="padding-top:10px; padding-left:17px;"/>
+                <div id="fad">
+                    miejsce na jednopoziomowy rotator banerów 
+                </div>
+            </div>  
+    </form>
+</body>
+</html>
