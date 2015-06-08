@@ -216,7 +216,7 @@ ul#nav{
     background-position: top right;
 }
 
-#nav li a:hover {/*NAPRAW BŁĄD ZNIKAJĄCEGO SEPERATORA*/
+#nav li a:hover {
     background: url("http://enjoycss.com/bg-img/custom/2686-kxggbd.gif"), -webkit-linear-gradient(-90deg, #439A00 0, #2E6503 100%);
     background: url("http://enjoycss.com/bg-img/custom/2686-kxggbd.gif"), -moz-linear-gradient(180deg, #439A00 0, #2E6503 100%);
     background: url("http://enjoycss.com/bg-img/custom/2686-kxggbd.gif"), linear-gradient(180deg, #439A00 0, #2E6503 100%);
