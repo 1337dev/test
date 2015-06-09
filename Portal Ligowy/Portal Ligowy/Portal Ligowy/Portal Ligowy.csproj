@@ -129,18 +129,30 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="fonts\MyriadPro-Regular.svg" />
+    <Content Include="images\about.png" />
     <Content Include="images\bg_grass.png" />
-    <Content Include="images\calendar.gif" />
-    <Content Include="images\facebook.gif" />
-    <Content Include="images\footer.gif" />
-    <Content Include="images\grass.gif" />
-    <Content Include="images\home.gif" />
+    <Content Include="images\calendar.png" />
+    <Content Include="images\czytdal.png" />
+    <Content Include="images\facebook.png" />
+    <Content Include="images\footer.png" />
+    <Content Include="images\grass.png" />
+    <Content Include="images\home.png" />
     <Content Include="images\indoor.png" />
-    <Content Include="images\online.gif" />
-    <Content Include="images\seperator.gif" />
-    <Content Include="images\time.gif" />
+    <Content Include="images\koment.png" />
+    <Content Include="images\login.png" />
+    <Content Include="images\loginseperator.png" />
+    <Content Include="images\nAutor.png" />
+    <Content Include="images\nDate.png" />
+    <Content Include="images\online.png" />
+    <Content Include="images\password.png" />
+    <Content Include="images\seperator.png" />
+    <Content Include="images\seperatorLogin.png" />
+    <Content Include="images\time.png" />
+    <Content Include="images\zaloguj.png" />
     <Content Include="styles\reset.css" />
     <Content Include="styles\style.css" />
+    <Content Include="SzablonBezSideBara.aspx" />
+    <Content Include="SzablonZsidebarem.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -173,6 +185,20 @@
       <DependentUpon>PortalLigowy.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SzablonBezSideBara.aspx.cs">
+      <DependentUpon>SzablonBezSideBara.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SzablonBezSideBara.aspx.designer.cs">
+      <DependentUpon>SzablonBezSideBara.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SzablonZsidebarem.aspx.cs">
+      <DependentUpon>SzablonZsidebarem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SzablonZsidebarem.aspx.designer.cs">
+      <DependentUpon>SzablonZsidebarem.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

@@ -13,36 +13,48 @@
         <div id="wrapper">
             <div id="infobar">
                 <div id="info">
-                    <img src="../images/time.gif" alt="Godzina: " style="float:left;"/><p class="info_elm">21:49</p>
-                    <img src="../images/calendar.gif" alt="Data: " style="float:left;"/><p class="info_elm">21.04.2015</p>
-                    <img src="../images/online.gif" alt="Online: " style="float:left;"/><p class="info_elm">4</p>
+                    <img src="../images/time.png" alt="Godzina: " style="float:left;"/><p class="info_elm">21:49</p>
+                    <img src="../images/calendar.png" alt="Data: " style="float:left;"/><p class="info_elm">21.04.2015</p>
+                    <img src="../images/online.png" alt="Online: " style="float:left;"/><p class="info_elm">4</p>
                 </div>
                 <div id="icons">
-                    <a href="#"><img src="../images/facebook.gif" alt="Facebook " class="icons_elm"/></a>
-                    <a href="#"><img src="../images/grass.gif" alt="Grass Site " class="icons_elm"/></a>
+                    <a href="#"><img src="../images/facebook.png" alt="Facebook " class="icons_elm"/></a>
+                    <a href="#"><img src="../images/grass.png" alt="Grass Site " class="icons_elm"/></a>
                     <a href="#"><img src="../images/indoor.png" alt="Indoor Site " class="icons_elm"/></a>
                 </div><div class="clear"></div>                
                 
             </div>
 
             <div id="topbar">
-                <div id="tp_left"><a href="#"><img src="../images/home.gif" alt="Homesite"/></a></div>
+                <div id="tp_left"><a href="Default.aspx"><img src="../images/home.png" alt="Homesite"/></a></div>
                 <div id="tp_center">
                     <p>Miejsce na dwupoziomowy rotator banerów reklamowych</p>
                 </div>
                 <div id="tp_right">
-                    b
+                    <div id="rleft">
+                        <input id="login" placeholder="Twój email..." />
+                        <input id="password" placeholder="Twoje hasło..." />
+                        <p id="remember">
+                            <p id="rembCgbx"><input type="checkbox" value="None" id="remeberChbx" name="zaznacz" /></p>
+                            <p id="rembTXT"><a href="">Zapamiętaj mnie</a></p><img src="../images/seperatorLogin.png" alt="|" class="seperatorLogin"/><a href="" class="zapomnialem">Zapomniałem hasła</a>
+                        </p>
+                    </div>
+                    <div id="rright">
+                           <input type="submit"  value="" id="zaloguj" />
+                    </div>
                 </div>
             </div><div class="clear"></div>
 
             <div id="navbar">
                 <ul id="nav">            
-                    <li><a href="">STRONA GŁÓWNA</a></li>
-                    <li><a href="">LIGA</a></li>          
+                    <li><a href="Default.aspx">STRONA GŁÓWNA</a></li>
+                    <li><a href="SzablonBezSideBara.aspx">SZABLON BEZ SIDEBARA</a></li>       
+                    <li><a href="SzablonZsidebarem.aspx">SZABLON Z SIDEBAREM</a></li>
                 </ul>
             </div>
 
             <div id="main">
+                <div class="clear"></div>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
@@ -50,7 +62,7 @@
             
         </div>      
         <div id="footer">
-                <img src="../images/footer.gif" alt="© Portal ligowy" style="padding-top:10px; padding-left:17px;"/>
+                <img src="../images/footer.png" alt="© Portal ligowy" style="padding-top:10px; padding-left:17px;"/>
                 <div id="fad">
                     miejsce na jednopoziomowy rotator banerów 
                 </div>
