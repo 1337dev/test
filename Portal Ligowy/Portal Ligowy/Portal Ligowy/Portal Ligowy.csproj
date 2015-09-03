@@ -163,7 +163,6 @@
     <Content Include="styles\style.css" />
     <Content Include="SzablonBezSideBara.aspx" />
     <Content Include="SzablonZsidebarem.aspx" />
-    <Content Include="test.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -225,13 +224,6 @@
     </Compile>
     <Compile Include="SzablonZsidebarem.aspx.designer.cs">
       <DependentUpon>SzablonZsidebarem.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="test.aspx.cs">
-      <DependentUpon>test.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="test.aspx.designer.cs">
-      <DependentUpon>test.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
